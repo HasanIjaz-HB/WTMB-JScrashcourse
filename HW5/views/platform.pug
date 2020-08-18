@@ -1,0 +1,6 @@
+extends layout
+
+block content
+    h1 The number of the platforms is #{platforms.length}
+    each platform in platforms
+      p #{platform.name}
